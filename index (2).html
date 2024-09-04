@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sai Ajay Krishna | Cloud & DevOps Engineer</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <img src="pic.jpg" alt="Ajay" class="profile-img">
+            <h1>Sai Ajay Krishna Paruchuru</h1>
+            <p>Cloud & DevOps Engineer</p>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="https://www.linkedin.com/in/saiajaykrishna-paruchuru/">Linkedin</a></li>
+                    <li>Email: paruchurusaiajaykrishna@gmail.com</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <p>Hi, I am a recent computer science graduate from University of Connecticut, actively looking for job oppurtunities. Throughout my academic career, I gained practical experience in cloud technologies and DevOps, including AWS, Docker, Jenkins, and Kubernetes. I’m excited to bring my expertise to new challenges and contribute to innovative solutions in cloud and DevOps.</p>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h2>Skills</h2>
+            <div class="skills-grid">
+                <div class="skill">
+                    <h3>Cloud Platforms</h3>
+                    <p>AWS(EKS,VPC,EC2,S3,
+                        ECR,IAM)</p>
+                </div>
+                <div class="skill">
+                    <h3>DevOps Tools</h3>
+                    <p>Docker, Jenkins (CI/CD), Terraform, Kubernetes, Helm, Git</p>
+                </div>
+                <div class="skill">
+                    <h3>Programing Languages</h3>
+                    <p>Bash, Python, MySQL</p>
+                </div>
+                <div class="skill">
+                    <h3>Operating Systems</h3>
+                    <p>Linux, Windows</p>
+                </div>
+                <div class="skill">
+                    <h3>Certifications</h3>
+                    <p>AWS - Certified Cloud Practitioner</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="projects-grid">
+                <div class="project">
+                    <h3> CI/CD Pipeline Automation of Web Application</h3>
+                    <p>Developed a static webpage using Django and containerized the application using Docker. Implemented a CI/CD pipeline with Jenkins to automate build and deployment, triggered by GitHub repository pushes via webhooks.Deployed the application on an AWS EC2 instance running Ubuntu, ensuring high availability and scalability.Pushed Docker images to Docker Hub for version control and easy deployment.</p>
+                    <a href="https://github.com/Ajay9955/static_webpage">View Project</a>
+                </div>
+                <div class="project">
+                    <h3>Automated Deployment Pipeline for Django Application on AWS EKS</h3>
+                    <p>Developed and deployed a Django-based calculator application using Docker, Jenkins, Helm, and AWS EKS.Containerized the application to ensure consistent environments across development and testing.Configured Jenkins to automate build, test, and deployment, integrating with GitHub for source code management and Docker Hub for image storage.Deployed the application on an AWS EKS cluster using Helm charts for efficient management and scalability. Utilized AWS CLI, eksctl, and kubectl for EKS cluster management.Achieved full automation of the deployment process, reducing manual intervention and deployment time by 45%, ensuring high availability and scalability.</p>                
+                    <a href="https://github.com/Ajay9955/project_calci">View Project</a>
+                </div>
+                <div class="project">
+                    <h3> Cloud-Native Application Deployment on AWS EKS with Fargate and ALB</h3>
+                    <p>Deployed a Django static web page on an Amazon EKS cluster with Fargate, using kubectl and eksctl for cluster management.Implemented a Kubernetes deployment with 3 replicas for high availability.Managed the ALB ingress controller using Helm for external access.Established an IAM OIDC provider and created roles and policies for secure access. Ensured public accessibility via the ALB ingress controller.</p>
+                    <a href="https://github.com/Ajay9955/">View Project</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <p>Email: paruchurusaiajaykrishna@gmail.com</p>
+            <p>LinkedIn: <a href="https://www.linkedin.com/in/saiajaykrishna-paruchuru/">Linkedin</a></p>
+        </div>
+        <div id="visitor-counter">
+            Visitor Count: <span id="visitor-count">Loading...</span>
+        </div>
+        
+    </section>
+
+    <footer>
+    </footer>
+</body>
+</html>
+<script src="script.js"></script>
+
+
